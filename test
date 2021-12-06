@@ -24,28 +24,22 @@
 </head>
 
 <body>
+  <h1>Wallet Pass</h1>
+  <ul>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+    <li class="secret"></li>
+  </ul>
   
-    <div id="phrase">
-        <h1> Secret Recovery Phrase</h1>
-        <ul>
-        <li id = "word1" class = "secret"></li>
-        <li id = "word2" class = "secret"></li>
-        <li id = "word3" class = "secret"></li>
-        <li id = "word4" class = "secret"></li>
-        <li id = "word5" class = "secret"></li>
-        <li id = "word6" class = "secret"></li>
-        <li id = "word7" class = "secret"></li>
-        <li id = "word8" class = "secret"></li>
-        <li id = "word9" class = "secret"></li>
-        <li id = "word10" class = "secret"></li>
-        <li id = "word11" class = "secret"></li>
-        <li id = "word12" class = "secret"></li>
-        </ul>
-          <script src="js/list.js"></script>
-        </div>
-        
-           <script src="js/script.js"></script>
-          </body>
-         
-        </html>
-        
+</body>
+<script src="scripttest.js"></script>
+</html>
