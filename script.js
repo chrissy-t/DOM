@@ -9,14 +9,7 @@ the array of words
 Bonus: For your random word selection, ensure that no word is repeated */
 
 
-//First Try
-/*var words = ['dorm, row, slippery, moist,radiation, tension, conservation, bean, palm, sink, rifle, spare, dressing, start, accept, slogan, lifestyle, stereotype, coco, kick, cultural, model, dare, divide'];
-var words = document.querySelectorAll('secret');
-if(words.length > 0){
-for (var i=0; i<words.length; i++){
-words[i].className = 'secret'
-}
-}*/
+
 
 //second try
 
