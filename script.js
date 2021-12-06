@@ -19,16 +19,19 @@ words[i].className = 'secret'
 }*/
 
 //second try
+
+//made array with names for the list
 function listWords(){
     let words = ['dorm','row', 'slippery', 'moist', 'radiation', 'tension', 'conservation', 'bean', 'palm', 'sink', 'rifle', 'spare', 'dressing', 'start', 'accept', 'slogan', 'lifestyle', 'stereotype', 'coco', 'kick', 'cultural', 'model', 'dare', 'divide'],
-    
-    wordsContainer = document.createElement('secret'),
-    wordsElement = document.createElement('secret'),
+    //made a container for the list
+   // wordsContainer = document.createElement('secret'),
+   // wordsElement = document.createElement('secret'),
+    //this is supposed to be the set up for a loop to go through the words in the list
      numberOfWordItems = words.length,
      divs = document.querySelectorAll('ul'),
        listItem,
         i;
-       
+       //adding the list to the webpage
      document.getElementsByClassName('secret')[0].appendChild(wordsContainer);
         wordsContainer.appendChild(wordsElement);
         for (i = 0; i < divs.length; ++i) {
